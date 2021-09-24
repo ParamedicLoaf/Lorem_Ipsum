@@ -45,8 +45,14 @@ img{
     width: 100%;
     margin: 0.1rem;
 }
-
+.img2 {
+    display:flex;
+    height: 50%;
+    width: 50%;
+    margin: 0.1rem;
+}
 .coluna {
+    font-size: 3rem;
     height: 100%;
     width: 100%;
     display: flex;
@@ -61,6 +67,5 @@ img{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: center;
     margin-bottom: 1rem; 
 }
