@@ -35,6 +35,13 @@ img{
     height: 100%;
 }
 
+
+.img2{
+    height: 3.5rem;
+    width: 3.5rem;
+}
+
+
 .foto-perfil{
     display: flex;
     align-items: center;
@@ -59,19 +66,48 @@ ul{
 
 li{
     display: flex;
-    align-items: center;
     justify-content: center;
-    height: 22%;
+    width: 70%;
+
+
+}
+.fixo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
     width: 70%;
 }
 
 li>a{
     display: flex;
     align-items: center;
-    justify-content: center;
-    border: 0.1rem solid black;
+
     height: 80%;
     width: 80%;
     font-size: 1.5rem;
 
+}
+
+li.fixo>a{
+    align-self: flex-start;
+}
+.coluna {
+    display: flex;
+    flex-direction: column;
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 0.1rem solid black;
+}
+.semborda {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
 }
