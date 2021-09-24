@@ -5,38 +5,43 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../css/reset.css">
-        <link rel="stylesheet" href="../css/index.css">
+        <link rel="stylesheet" href="../css/cronograma.css">
     </head>
     <body>
         <header>
-            <!-- <i class="fa fa-bars"></i> -->
             <nav>&#9776;</nav>
             <h1>
                 Cronograma
             </h1>
             <a class='foto-perfil' href=#>
-            <img src="https://via.placeholder.com/50x50"" alt='Foto de perfil usuário'>
+            <img src="https://via.placeholder.com/50x50" alt='Foto de perfil usuário'>
             </a>
         </header>
+
         <main>
-            
-                <ul>
-                    <li><h2>Próximo cliente</h2></li>
-                    <li><a href='perfil.html'><img src="../img/pessoa.jpg" alt='pessoa totalmente normal'></a></li>
-                    <li><a href='perfil.html'>Nome</a></li>
-                    <li>horário</li>
-                    <li>Tipo de corte</li>
+                <ul class='cliente'>
+                    <li><h2>Próximo cliente:</h2></li>
+                    <li>
+                        <ul class='linha'>
+                            <li><a><img src="https://via.placeholder.com/70" alt='Foto de perfil usuário'></a></li>
+                            <li>
+                                <ul>
+                                    <li><a href='perfil.html'>Nome</a></li>
+                                    <li>Tipo de corte</li>
+                                </ul>
+                            </li>
+                            <li>&#128336; Horário</li>
+                        </ul>
+                    </li>
                 </ul>
             
-                
-            
-                <h2>Agendamentos do:</h2>
+                <h2>Cronograma do(a):</h2>
+
                 <ul>
                     <li><a href='cronograma-dia.html'>Dia</a></li>
                     <li><a href='#'>Semana</a></li>
                     <li><a href='#'>Mês</a></li>
                 </ul>
-            
         </main>
     </body>
 </html>
