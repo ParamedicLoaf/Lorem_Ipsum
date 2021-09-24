@@ -102,6 +102,7 @@ li.fixo>a{
     flex-direction: row;
     justify-content: space-evenly;
     border: 0.1rem solid black;
+    border-radius: 0.6rem;
 }
 .semborda {
     display: flex;
