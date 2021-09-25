@@ -25,6 +25,7 @@ header{
     align-items: center;
     width: 100%;
     border-bottom: 0.1rem solid black;
+    margin-bottom: 1rem;
 }
 
 nav{
@@ -34,13 +35,6 @@ nav{
 img{
     height: 4rem;
 }
-
-
-.img2{
-    height: 3.5rem;
-    width: 3.5rem;
-}
-
 
 .foto-perfil{
     display: flex;
@@ -52,7 +46,6 @@ main{
     flex-direction: column;
     align-items: center;
     height: 100%;
-
 }
 
 ul{
@@ -61,55 +54,89 @@ ul{
     align-items: center;
     justify-content: space-evenly;
     height: 100%;
+    width: 100%;   
+}
+
+.card-cliente{
+    height: 40%;
     width: 100%;
-    
 }
 
 li{
     display: flex;
     justify-content: center;
     width: 70%;
-    
-
-
-}
-.fixo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 5rem;
-    width: 70%;
 }
 
-li>a{
-    display: flex;
-    align-items: center;
 
-    height: 80%;
-    width: 80%;
-    font-size: 1.5rem;
-
+.foto-cliente{
+    height: 7rem;
 }
 
-li.fixo>a{
-    align-self: flex-start;
-}
-.coluna {
-    display: flex;
-    flex-direction: column;
-}
-
-.linha {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    border: 0.1rem solid black;
-}
-.semborda {
+.dados-cliente{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: space-evenly;
-    height: 100%;
+    justify-content: center;
+    margin-left: 1rem;
+}
+
+.dados-cliente>li{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+li>h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+p{
+    width: 70%;
+    padding: 1rem;
+    border: .1rem solid black;
+    border-radius: 0.6rem;
+    margin: 1rem;
+}
+
+b{
+    font-weight: bold;
+}
+
+.servicos{
+    font-size: 1.5rem;
+    font-style: italic;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    border-top: .1rem solid black;
+    border-bottom: .1rem solid black;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.servico{
+    border: .1rem solid black;
+    border-radius: 0.6rem;
+    display: flex;
+    flex-direction: row;
+    height: 3rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.coluna1{
+    display: flex;
+    flex-direction: column;
+}
+
+.coluna2{
+    display: flex;
+    flex-direction: column;
+}
+
+ul.coluna1>li,ul.coluna2>li{
+    justify-content: flex-start;
 }
