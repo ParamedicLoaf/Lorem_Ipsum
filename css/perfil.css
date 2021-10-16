@@ -9,6 +9,7 @@ h1{
 }
 
 body{
+    background-color: #fff5f2;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -18,12 +19,14 @@ body{
 }
 
 header{
+    color: #fff5f2;
+    background-color: #751b99;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    border-bottom: 0.1rem solid black;
+    border-bottom: 0.1rem solid #751b99;
     margin-bottom: 1rem;
     font-family: 'Raleway', sans-serif;
 }
@@ -98,7 +101,7 @@ li>h2{
 p{
     width: 70%;
     padding: 1rem;
-    border: .1rem solid black;
+    border: .1rem solid #751b99;
     border-radius: 0.6rem;
     margin: 1rem;
     font-family: 'Roboto', sans-serif;
@@ -106,22 +109,24 @@ p{
 
 b{
     font-weight: bold;
+    color: #9c00cc;
 }
 
 .servicos{
+    color: #9c00cc;
     font-size: 1.5rem;
     font-style: italic;
     width: 100%;
     display: flex;
     justify-content: center;
-    border-top: .1rem solid black;
-    border-bottom: .1rem solid black;
+    border-top: .1rem solid #751b99;
+    border-bottom: .1rem solid #751b99;
     padding: 1rem;
     margin: 1rem;
 }
 
 .servico{
-    border: .1rem solid black;
+    border: .1rem solid #751b99;
     border-radius: 0.6rem;
     display: flex;
     flex-direction: row;

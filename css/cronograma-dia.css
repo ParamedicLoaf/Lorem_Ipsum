@@ -4,12 +4,18 @@ html{
     width: 100%;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 h1{
     font-size: 1.5rem;
     font-family: 'Raleway', sans-serif;
 }
 
 body{
+    background-color: #fff5f2;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -20,12 +26,14 @@ body{
 
 
 header{
+    color: #fff5f2;
+    background-color: #751b99;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    border-bottom: 0.1rem solid black;
+    border-bottom: 0.1rem solid #751b99;
     margin-bottom: 1rem;
 }
 
@@ -102,7 +110,7 @@ li.fixo>a{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    border: 0.1rem solid black;
+    border: 0.1rem solid #751b99;
     border-radius: 0.6rem;
     font-family: 'Roboto', sans-serif;
 }
@@ -117,4 +125,9 @@ li.fixo>a{
 
 .servico{
     margin: 1rem;
+    width: 19rem;
+}
+
+.horario{
+    color: #cf5e13;
 }

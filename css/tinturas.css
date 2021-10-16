@@ -9,6 +9,7 @@ h1{
 }
 
 body{
+    background-color: #fff5f2;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -19,12 +20,14 @@ body{
 
 
 header{
+    color: #fff5f2;
+    background-color: #751b99;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    border-bottom: 0.1rem solid black;
+    border-bottom: 0.1rem solid #751b99;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -72,4 +75,9 @@ main{
 
 p{
     font-family: 'Raleway', sans-serif;
+}
+
+.acabando{
+    color: #c71e00;
+    font-weight: bold;
 }
