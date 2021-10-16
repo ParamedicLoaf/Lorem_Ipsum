@@ -17,7 +17,6 @@ body{
     overflow-y: auto;
 }
 
-
 header{
     display: flex;
     flex-direction: row;
@@ -26,6 +25,7 @@ header{
     width: 100%;
     border-bottom: 0.1rem solid black;
     margin-bottom: 1rem;
+    font-family: 'Raleway', sans-serif;
 }
 
 nav{
@@ -66,6 +66,7 @@ li{
     display: flex;
     justify-content: center;
     width: 70%;
+    /* font-family: 'Raleway', sans-serif; */
 }
 
 
@@ -91,6 +92,7 @@ li{
 li>h2{
     font-size: 1.5rem;
     font-weight: bold;
+    font-family: 'Raleway', sans-serif;
 }
 
 p{
@@ -99,6 +101,7 @@ p{
     border: .1rem solid black;
     border-radius: 0.6rem;
     margin: 1rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 b{
@@ -125,16 +128,19 @@ b{
     height: 3rem;
     margin: 1rem;
     padding: 1rem;
+    
 }
 
 .coluna1{
     display: flex;
     flex-direction: column;
+    font-family: 'Raleway', sans-serif;
 }
 
 .coluna2{
     display: flex;
     flex-direction: column;
+    font-family: 'Raleway', sans-serif;
 }
 
 ul.coluna1>li,ul.coluna2>li{

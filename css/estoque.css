@@ -6,6 +6,7 @@ html{
 
 h1{
     font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
 }
 
 body{
@@ -16,7 +17,6 @@ body{
     overflow-x: auto;
     overflow-y: auto;
 }
-
 
 header{
     display: flex;
@@ -45,6 +45,7 @@ main{
     flex-direction: column;
     align-items: center;
     height: 100%;
+    font-family: 'Raleway', sans-serif;
 
 }
 

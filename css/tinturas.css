@@ -25,6 +25,7 @@ header{
     align-items: center;
     width: 100%;
     border-bottom: 0.1rem solid black;
+    font-family: 'Raleway', sans-serif;
 }
 
 nav{
@@ -67,4 +68,8 @@ main{
     justify-content: center;
     margin-bottom: 2rem; 
     margin-top: 2rem; 
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
 }

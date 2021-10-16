@@ -6,6 +6,7 @@ html{
 
 h1{
     font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
 }
 
 body{
@@ -82,10 +83,10 @@ li{
 li>a{
     display: flex;
     align-items: center;
-
     height: 80%;
     width: 80%;
     font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
 
 }
 
@@ -103,6 +104,7 @@ li.fixo>a{
     justify-content: space-evenly;
     border: 0.1rem solid black;
     border-radius: 0.6rem;
+    font-family: 'Roboto', sans-serif;
 }
 .semborda {
     display: flex;
