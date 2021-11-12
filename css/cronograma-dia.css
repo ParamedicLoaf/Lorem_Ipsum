@@ -99,7 +99,7 @@ li>a{
 }
 
 li.fixo>a{
-    align-self: flex-start;
+    align-self: center;
 }
 .coluna {
     display: flex;
