@@ -86,3 +86,31 @@ p{
     color: #c71e00;
     font-weight: bold;
 }
+
+div{
+    display: flex;
+    margin-top: 0.5rem;
+    flex-direction: row;
+    width: 8rem;
+    justify-content: space-between;
+}
+
+.mais{
+    border: 0.1rem solid #751b99;
+    color: #751b99;
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.menos{
+    border: 0.1rem solid #751b99;
+    color: #751b99;
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+}
