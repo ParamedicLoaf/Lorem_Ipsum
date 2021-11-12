@@ -27,6 +27,7 @@ header{
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    height: 3rem;
     border-bottom: 0.1rem solid #751b99;
     font-family: 'Raleway', sans-serif;
 }
@@ -46,6 +47,10 @@ main{
 .foto-perfil{
     display: flex;
     align-items: center;
+}
+
+.foto-perfil>img{
+    height: 3rem;
 }
 
 .img2 {
