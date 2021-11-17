@@ -33,7 +33,8 @@ header{
 }
 
 nav{
-    font-size: 3rem;
+    font-size: 2.5rem;
+    padding-left: 0.4rem;
 }
 
 img{
@@ -47,6 +48,7 @@ img{
 
 .foto-perfil>img{
     height: 3rem;
+    padding-right: 0.4rem;
 }
 
 main{
