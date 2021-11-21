@@ -3,6 +3,14 @@ document.addEventListener('DOMContentLoaded', function() {
     value = localStorage.getItem('nome')
     imagem = localStorage.getItem('imagem')
 
+    if (value){
+        value = value
+    }
+    else {
+        value = 'Camila'
+        imagem = 'img/Cliente1.jpg'
+    }
+
     nome_pagina = document.querySelector('h2')
 
     foto = document.querySelectorAll('img')
