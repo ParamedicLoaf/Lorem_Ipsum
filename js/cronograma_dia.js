@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
 
         localStorage.setItem('nome', nomex)
-        localStorage.setItem('imagem',"../img/Cliente1.jpg")
+        localStorage.setItem('imagem',"img/Cliente1.jpg")
 
     })
 
@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // img[1].src = "../img/Cliente 2.jpg"
 
         localStorage.setItem('nome', nomex)
-        localStorage.setItem('imagem',"../img/Cliente2.jpg")
+        localStorage.setItem('imagem',"img/Cliente2.jpg")
 
     })
 
@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // img[2].src = "../img/Cliente 3.jpg"
 
         localStorage.setItem('nome', nomex)
-        localStorage.setItem('imagem',"../img/Cliente3.jpg")
+        localStorage.setItem('imagem',"img/Cliente3.jpg")
 
     })
 
