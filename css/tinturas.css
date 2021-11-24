@@ -110,7 +110,7 @@ div{
 .menos{
     border: 0.1rem solid #751b99;
     color: #751b99;
-    font-size: 2rem;
+    font-size: 2rem; 
     font-family: 'Raleway', sans-serif;
     width: 2rem;
     display: flex;

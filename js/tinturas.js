@@ -2,8 +2,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     estoque_global = localStorage.getItem('estoque_global')
 
-    let quantidades = document.querySelectorAll('#quantidade')
-    let produtos = document.querySelectorAll('#produto')
+    let quantidades = document.querySelectorAll('.quantidade')
+    let produtos = document.querySelectorAll('.produto')
 
     menos = document.querySelectorAll('.menos')
     mais = document.querySelectorAll('.mais')
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
     for (var i=0; i < mais.length ; i++) {
         mais[i].addEventListener('click', function(event) {
             elemento = event.target.parentElement.parentElement
-            selecionado = elemento.querySelector('#produto').innerHTML
+            selecionado = elemento.querySelector('.produto').innerHTML
             estoque[selecionado] = estoque[selecionado]+1
             atualizaEstoque()
         })
@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function() {
     for (var i=0; i < menos.length ; ++i) {
         menos[i].addEventListener('click', function(event) {
             elemento = event.target.parentElement.parentElement
-            selecionado = elemento.querySelector('#produto').innerHTML
+            selecionado = elemento.querySelector('.produto').innerHTML
             estoque[selecionado] = estoque[selecionado]-1
             atualizaEstoque()
             localStorage.setItem('estoque_global', JSON.stringify(estoque))
